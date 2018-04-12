@@ -1,12 +1,14 @@
+package JavaSamplePrograms;
+
 import java.util.*;
 
 public class Fibonacci {
 
-    public static void main(String[] args) { //input to print Fibonacci series upto how many numbers
-        System.out.println("Enter number upto which Fibonacci series to print: ");
+    public static void main(String[] args) { //input to print JavaSamplePrograms.Fibonacci series upto how many numbers
+        System.out.println("Enter number upto which JavaSamplePrograms.Fibonacci series to print: ");
         int number = new Scanner(System.in).nextInt();
-        System.out.println("Fibonacci series upto " + number + " numbers : ");
-        //printing Fibonacci series upto number
+        System.out.println("JavaSamplePrograms.Fibonacci series upto " + number + " numbers : ");
+        //printing JavaSamplePrograms.Fibonacci series upto number
         for (int i = 1; i <= number; i++) {
             System.out.print(fibonacciCalucator(i) + " ");
         }
@@ -28,7 +30,7 @@ public class Fibonacci {
             return fib;
         }
 
-//    /* * Java program for Fibonacci number using recursion. * This program uses tail recursion to calculate Fibonacci number for a given number * @return Fibonacci number */
+//    /* * Java program for JavaSamplePrograms.Fibonacci number using recursion. * This program uses tail recursion to calculate JavaSamplePrograms.Fibonacci number for a given number * @return JavaSamplePrograms.Fibonacci number */
 //    public static int fibonacci(int number)
 //    { if(number == 1 || number == 2){ return 1; }
 //    return fibonacci(number-1) + fibonacci(number -2); //tail recursion

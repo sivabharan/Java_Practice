@@ -1,3 +1,5 @@
+package JavaSamplePrograms;
+
 import java.util.*;
 
 public class CheckDuplicateNumber {

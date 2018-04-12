@@ -1,3 +1,5 @@
+package JavaSamplePrograms;
+
 public class CheckPrime {
 public boolean isPrime(int prime) {
         for(int i =2;i<=prime/2;i++){
