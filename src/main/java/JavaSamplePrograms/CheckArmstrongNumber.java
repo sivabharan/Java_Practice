@@ -21,6 +21,7 @@ public class CheckArmstrongNumber {
         temp = n;
         while(n>0){
             int number = n%10;
+            System.out.println(number);
             n = n/10;
             armStrong = armStrong+(number*number*number);
         }

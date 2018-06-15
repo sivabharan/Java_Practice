@@ -1,4 +1,4 @@
-package JavaSamplePrograms;
+package Algorithms;
 import java.util.*;
 class Book{
     int id;
