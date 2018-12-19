@@ -19,7 +19,9 @@ public class findDistinctString {
 
     public static void main(String a[]){
 
-        String[] nums = {"siva","john","siva"};
-        findDistinctString.printDistinctElements(nums);
+        String[] values = {"siva","john","siva"};
+        findDistinctString.printDistinctElements(values);
     }
 }
+
+

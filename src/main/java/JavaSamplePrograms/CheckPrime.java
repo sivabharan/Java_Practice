@@ -12,6 +12,6 @@ public boolean isPrime(int prime) {
 
  public static void main(String a[]) {
     CheckPrime cp = new CheckPrime();
-    System.out.println(cp.isPrime(6));
+    System.out.println(cp.isPrime(2));
  }
 }
