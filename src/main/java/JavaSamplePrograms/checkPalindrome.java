@@ -20,6 +20,7 @@ public class checkPalindrome {
      * Java method to check if number is palindrome or not
      */
     public static boolean isPalindrome(int number) {
+
         int palindrome = number; // copied number into variable
         int reverse = 0;
 

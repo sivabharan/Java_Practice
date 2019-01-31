@@ -8,7 +8,7 @@ public class ArraylistExample {
         list.add("Ravi");
         list.add("Ajay");
         //Traversing list through Iterator
-        Iterator itr=list.iterator();
+//        Iterator itr=list.iterator();
         for(String obj:list)
             System.out.println(obj);
     }
